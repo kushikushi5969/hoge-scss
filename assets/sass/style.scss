@@ -1,1 +1,17 @@
-
+// optional styling for CodePen example
+.nav-tabs li.active a {
+  background: #f8f8f8!important;
+  border-bottom-color: transparent!important;
+}
+.nav-tabs li:not(.active) {
+  border-bottom: 1px solid black;
+}
+.tab-content {
+  margin-top: -1px;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 50px 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #f8f8f8;
+}
